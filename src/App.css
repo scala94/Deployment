@@ -1,6 +1,6 @@
 @font-face {
   font-family: "technoid";
-  src: url("C:/Users/Johny/Desktop/mywebsite/my-app/src/TECHNOID.TTF");
+  src: url("./TECHNOID.TTF");
   font-style: normal;
 }
 
@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: "roboto-condensed";
-  src: url("C:/Users/Johny/Desktop/mywebsite/my-app/src/roboto-condensed.ttf");
+  src: url("./roboto-condensed.ttf");
   font-style: normal;
 }
 
