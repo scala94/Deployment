@@ -124,7 +124,7 @@ export default class Info extends Component {
                         <a className="CV-button" href = {Pdf}>Download Pdf Resume</a>
                     </div>
                     <div>
-                        <h1></h1>
+                        <h1> </h1>
                     </div>
                 </div>
             </div>
