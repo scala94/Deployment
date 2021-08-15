@@ -18,7 +18,7 @@ const Header = () => {
                     backSpeed={40}
                     loop
                 />
-                <a className="foto-profile" href="#"><img className="profile" src={profile} alt="logo..." /></a>
+                <a className="foto-profile" href="/home"><img className="profile" src={profile} alt="logo..." /></a>
                 <div className="main-description">
                     <h2>IT Application Developement Specialist</h2>
                     <h3>In-between Economist and Data analyst, strongly passionate for programming</h3>

@@ -18,7 +18,7 @@ const Navbar = () => {
     return (
         <Router>
             <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-                <a className="navbar-band" href="#"><img className="logo" src={logo} alt="logo..." /></a>
+                <a className="navbar-band" href="/home"><img className="logo" src={logo} alt="logo..." /></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <FontAwesomeIcon icon={faBars} style={{ color: "#F1DEB4" }} />
                 </button>

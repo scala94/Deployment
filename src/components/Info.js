@@ -22,7 +22,6 @@ var experiences = [
     },
     {
         title: 'Teradata GDC Centre, Prague, Czech Republic',
-        role: "Trainee Analyst in DG Economics – Prices and Costs (DGE-PAC)",
         role: "Graduate Consultant, Teradata GDC",
         date: 'September 2019 - January 2020',
         description: "Trained in the Teradata Data Warehouse technology, in dataproduction processes, learned fundamental concepts of databaseDesign/Architecture and Database Administration.- Developed and applied back-end skills in projects and shadowingLufthansa Airline client (large usage of SQL and Shell scripting).- Introduced and worked with Big Data Hadoop based Systems(HIVE++).- Adopted principles of the Agile framework."

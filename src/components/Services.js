@@ -44,7 +44,7 @@ function Card(props) {
     return(
         <div className="card">
             <div className="card-body">
-                <img src={props.img} className="card-img"/>
+                <img src={props.img} className="card-img" alt="loading..."/>
                 <h2 className="card-title" style={{ textAlign: 'center' }}>{props.title}</h2>
                 <p className="card-description" style={{ textAlign: 'justify' }}>{props.description}</p>
                 <ExpandMoreIcon className="expand-icon" onClick={()=> setOpen(!open)}

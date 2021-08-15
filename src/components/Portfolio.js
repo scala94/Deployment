@@ -55,7 +55,7 @@ function Card(props) {
     return(
         <div className="card">
             <div className="card-body">
-                <img src={props.img} className="card-img"/>
+                <img src={props.img} className="card-img" alt="loading..."/>
                 <h2 className="card-title" style={{ textAlign: 'center' }}>{props.title}</h2>
                 <p className="card-description" style={{ textAlign: 'justify' }}>{props.description}</p>
                 <ExpandMoreIcon className="expand-icon" onClick={()=> setOpen(!open)}
@@ -63,7 +63,7 @@ function Card(props) {
                 <Collapse in={open}>
                     <div id="collapse"  className="expand-description">
                         <h1 style={{ textAlign: 'justify' }}>{props.edescription}</h1>
-                        <img src={props.gif} className="card-gif"/> 
+                        <img src={props.gif} className="card-gif" alt="loading..."/> 
                         <a href={props.link} className="btn-expand">{props.linkname}</a>
                     </div>
                 </Collapse>
