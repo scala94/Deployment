@@ -38,8 +38,7 @@ nav ul li {
 }
 
 .navbar {
-  position: absolute;
-  z-index: 2;
+  z-index: 3;
 }
 
 .navbar-brand {
@@ -65,7 +64,7 @@ nav ul li {
 }
 
 .main-info {
-  margin-top: 2rem;
+  margin-top: 14rem;
   display: flex;
   top: 0;
   left: 0;
