@@ -6,6 +6,7 @@ import SchoolIcon from '@material-ui/icons/School';
 import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineItem from '@material-ui/lab/TimelineItem';
+import Pdf from "../CV_GiacomoScalabrin.pdf";
 
 var experiences = [
     {
@@ -118,6 +119,12 @@ export default class Info extends Component {
                                 </Grid>
                             </Grid>
                         </Grid>
+                    </div>
+                    <div>
+                        <a className="CV-button" href = {Pdf}>Download Pdf Resume</a>
+                    </div>
+                    <div>
+                        <h1></h1>
                     </div>
                 </div>
             </div>

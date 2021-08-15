@@ -60,7 +60,7 @@ nav ul li {
   position: relative;
   background-size: cover;
   background-position: center;
-  height: 120vh;
+  height: 140vh;
 }
 
 .main-info {
@@ -140,6 +140,23 @@ nav ul li {
   margin-bottom: 3rem;
   color: var(--primary-white);
   font-family: "roboto condensed";
+}
+
+.infoInfo .CV-button {
+  border: 3px solid var(--primary-gold);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.7rem 0.8rem 0.8rem 0.8rem;
+  color: var(--primary-white);
+  margin-left: 4%;
+}
+
+.infoInfo .CV-button:hover {
+  text-decoration: none;
+  background-color: var(--primary-gold);
+  color: black;
+  transition: 0.2s ease-in-out;
+  font-weight: 500;
 }
 
 .typed-text {
@@ -273,7 +290,7 @@ nav ul li {
 
 .services-header h1 {
   text-transform: uppercase;
-  color: var(--primary-white);
+  color: var(--primary-gold);
   font-weight: 500;
   padding: 3rem;
   font-family: "technoid";
