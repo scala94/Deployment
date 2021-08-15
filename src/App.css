@@ -1,0 +1,314 @@
+@font-face {
+  font-family: "technoid";
+  src: url("C:/Users/Johny/Desktop/mywebsite/my-app/src/TECHNOID.TTF");
+  font-style: normal;
+}
+
+:root {
+  --primary-gold: rgb(241, 222, 180);
+  --primary-white: #fff;
+}
+
+@font-face {
+  font-family: "roboto-condensed";
+  src: url("C:/Users/Johny/Desktop/mywebsite/my-app/src/roboto-condensed.ttf");
+  font-style: normal;
+}
+
+/* logo Navbar */
+.logo {
+  width: 15rem;
+}
+
+/* Menu links */
+nav a.nav-link {
+  font-size: 1.2rem;
+  letter-spacing: 0.005rem;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin-right: 1.6rem;
+  margin-left: 1.6rem;
+  color: var(--primary-gold) !important;
+}
+
+.navbar {
+  position: absolute;
+  z-index: 2;
+}
+
+.navbar-brand {
+  max-width: 17rem !important;
+  padding: 0 !important;
+  height: 15rem !important;
+}
+
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:focus {
+  border-bottom: 0.1rem solid var(--primary-gold) !important;
+}
+
+.navbar-nav > li > a:hover {
+  border-bottom: 0.1rem solid var(--primary-white) !important;
+}
+
+.header-wraper {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.main-info {
+  margin-top: 2rem;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  z-index: 2;
+}
+
+.main-info h1 {
+  color: var(--primary-gold);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 3rem;
+  font-weight: 350;
+  font-family: "technoid" !important;
+}
+
+.main-info .typed-text {
+  color: black;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "roboto-condensed";
+}
+
+.main-info .main-description h2 {
+  margin-top: 2rem;
+  color: black;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 2rem;
+  font-weight: 300;
+  font-family: "roboto-condensed";
+  margin-bottom: 1rem;
+}
+
+.main-info .main-description h3 {
+  color: black;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-family: "roboto-condensed";
+}
+
+.infoInfo {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto Condensed" sans-serif;
+  z-index: 2;
+  background-color: rgb(100, 100, 100);
+}
+
+.infoInfo h1 {
+  text-transform: uppercase;
+  margin: 3rem;
+  color: var(--primary-white);
+  font-weight: 500;
+  font-size: 250%;
+  font-family: "technoid";
+}
+
+.infoInfo h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-bottom: 3rem;
+  color: var(--primary-white);
+}
+
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-white);
+}
+
+.btn-main-offer {
+  border: 3px solid var(--primary-gold);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.7rem 0.8rem 0.8rem 0.8rem;
+  color: var(--primary-white);
+  margin: 2.5rem;
+}
+
+.btn-main-offer:hover {
+  text-decoration: none;
+  background-color: var(--primary-gold);
+  color: black;
+  transition: 0.2s ease-in-out;
+  font-weight: 500;
+}
+
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+.main-footer .footer-icon {
+  width: 30%;
+  height: 3.5rem;
+  z-index: 2;
+  transform: scale(7%);
+  margin-bottom: 5%;
+  width: 17.5%;
+  margin-left: 1%;
+}
+
+.main-footer .footer-icon:hover {
+  color: var(--primary-gold);
+  z-index: 2;
+  transform: scale(8%);
+}
+
+.contact-border h1 {
+  color: var(--primary-white);
+  padding: 3rem;
+  font-weight: 300;
+  font-size: 250%;
+  font-family: "technoid";
+}
+
+.contact-border .row .label {
+  color: var(--primary-white);
+  font-weight: 350;
+}
+
+.contact-border .row .button {
+  margin-bottom: 2rem;
+  border: 3px solid var(--primary-gold);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.7rem 0.8rem 0.8rem 0.8rem;
+  color: var(--primary-white);
+  background-color: transparent;
+  z-index: 1;
+}
+
+.contact-border .row .button:hover {
+  text-decoration: none;
+  background-color: var(--primary-gold);
+  color: black;
+  font-weight: 500;
+  transition: 0.2s ease-in-out;
+}
+
+.contact-border .row .form-control {
+  z-index: 1;
+}
+
+.services-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+  gap: 2rem;
+  justify-content: center;
+}
+
+.card {
+  overflow: hidden;
+  box-shadow: 0.2px 20px transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 200ms ease-in;
+  margin-bottom: 2rem;
+  background-color: transparent !important;
+  z-index: 2;
+}
+
+.card .card-img {
+  height: 10rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card .card-title {
+  margin-top: 0.5rem;
+  color: var(--primary-gold);
+  font-size: 130%;
+}
+
+.card .card-description {
+  color: var(--primary-white);
+}
+
+.card:hover {
+  transform: scale(1.2);
+}
+
+.card:hover .card-btn {
+  background-color: var(--primary-gold);
+  color: grey;
+}
+
+.services-header h1 {
+  text-transform: uppercase;
+  color: var(--primary-white);
+  font-weight: 500;
+  padding: 3rem;
+  font-family: "technoid";
+  font-size: 250%;
+}
+
+.card .card-body .expand-icon {
+  color: var(--primary-gold);
+}
+
+.card .card-body .expand-icon:hover {
+  transform: scale(1.5);
+}
+
+.card .card-body .expand-description h1 {
+  color: var(--primary-white);
+  font-size: 0.8rem !important;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.card .card-body .expand-description .btn-expand {
+  font-weight: bold;
+  border-radius: 0;
+  color: var(--primary-white);
+  transform: scale(0.3) !important;
+}
+
+.card .card-body .expand-description .btn-expand:hover {
+  font-weight: bold;
+  border-radius: 0;
+  color: var(--primary-gold);
+  padding: 0.5rem;
+}
+
+.card .card-gif {
+  width: 100%;
+  height: 100%;
+}
