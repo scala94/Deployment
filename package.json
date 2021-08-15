@@ -23,7 +23,8 @@
     "react-scripts": "4.0.3",
     "react-typed": "^1.2.0",
     "tsparticles": "^1.33.3",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "yarn": "^1.22.11"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -60,11 +60,11 @@ nav ul li {
   position: relative;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 120vh;
 }
 
 .main-info {
-  margin-top: 3rem;
+  margin-top: 7%;
   display: flex;
   top: 0;
   left: 0;
@@ -97,7 +97,6 @@ nav ul li {
 }
 
 .main-info .main-description h2 {
-  margin-top: 2rem;
   color: black;
   margin-left: 1rem;
   margin-right: 1rem;
@@ -127,7 +126,7 @@ nav ul li {
 .infoInfo h1 {
   text-transform: uppercase;
   margin: 3rem;
-  color: var(--primary-white);
+  color: var(--primary-gold);
   font-weight: 500;
   font-size: 250%;
   font-family: "technoid";
@@ -135,11 +134,12 @@ nav ul li {
 
 .infoInfo h2 {
   font-size: 1.5rem;
-  font-weight: 300;
+  font-family: "technoid";
   margin-left: 7%;
   margin-right: 7%;
   margin-bottom: 3rem;
   color: var(--primary-white);
+  font-family: "roboto condensed";
 }
 
 .typed-text {
@@ -154,6 +154,7 @@ nav ul li {
   padding: 0.7rem 0.8rem 0.8rem 0.8rem;
   color: var(--primary-white);
   margin: 2.5rem;
+  margin-bottom: 8rem;
 }
 
 .btn-main-offer:hover {
@@ -253,10 +254,12 @@ nav ul li {
   margin-top: 0.5rem;
   color: var(--primary-gold);
   font-size: 130%;
+  font-family: "roboto condensed";
 }
 
 .card .card-description {
   color: var(--primary-white);
+  font-family: "roboto condensed";
 }
 
 .card:hover {
@@ -287,10 +290,11 @@ nav ul li {
 
 .card .card-body .expand-description h1 {
   color: var(--primary-white);
-  font-size: 0.8rem !important;
+  font-size: 1rem !important;
   font-weight: 400;
   margin-bottom: 1rem;
   margin-top: 1rem;
+  font-family: "roboto condensed";
 }
 
 .card .card-body .expand-description .btn-expand {
@@ -298,6 +302,7 @@ nav ul li {
   border-radius: 0;
   color: var(--primary-white);
   transform: scale(0.3) !important;
+  font-family: "roboto condensed";
 }
 
 .card .card-body .expand-description .btn-expand:hover {

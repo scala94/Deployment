@@ -5,7 +5,7 @@ import {Collapse} from 'react-bootstrap';
 const Services = () => {
     return (
         <div  style={{
-            backgroundImage: 'url("https://th.bing.com/th/id/OIP.qoNsq92OW-JI3C1PnnCc3gHaEo?pid=ImgDet&rs=1")',
+            backgroundImage: 'url("https://wallpaperforu.com/wp-content/uploads/2021/02/Wallpaper-Black-And-White-Laptop-Computer-Keyboards-Tech43.jpg")',
             backgroundPosition: "center",
             backgoundSize: "cover",
         }}>
@@ -16,23 +16,24 @@ const Services = () => {
             <Card
             img="https://th.bing.com/th/id/R.e2f00aab38a8792f5a66440db7419eea?rik=yBwIzn6iztcE%2fw&pid=ImgRaw&r=0"
             title="Economics"
-            description="Gained experience in "
-            edescription="ansforming and modelin"
+            description="Having completed my studies in Quantitative Economics, I gained experience working as an Analyst for the European Central Bank (Economics department, Prices and Costs division)."
+            edescription=""
+
             />
             <Card
             img="https://blog.qintesi.com/hubfs/data-analytics-pianificazione-finanziaria.jpg"
             title="Data Analytics"
-            description="Data analysis means a process of cleaning, transforming and modelin"  
+            description="Strongly oriented toward statistical matter, I developed interest and gained experience with data analysis and most spread Machine Learning algorithms."  
              />
             <Card
             img="https://th.bing.com/th/id/OIP.RTMwlEQN_vjs6kzlge_0EQHaDE?pid=ImgDet&rs=1"
             title="IT & Smart Automation"
-            description="Data analysis means a process of cleaning, transforming and modelin"
+            description="Trained as back-end developer consultant at Teradata data Warehouse and currently working as IT Application Development Specialist at the European Central Bank's IT department."
                />
             <Card
             img="https://www.ishir.com/wp-content/uploads/2018/03/new-2.jpg"
             title="Software Development"
-            description="Data analysis means a process of cleaning, transforming and modelin"
+            description="Developed a strong passion for programming, I am expanding my technical skill-set through time in different directions."
             />
         </div>
         </div>
@@ -52,7 +53,7 @@ function Card(props) {
                 <Collapse in={open}>
                     <div id="collapse"  className="expand-description">
                         <h1 style={{ textAlign: 'justify' }}>{props.edescription}</h1>
-                        <a href="/portfolio" className="btn-expand">check my projects</a>
+                        <a href="/portfolio" className="btn-expand">check my portfolio</a>
                     </div>
                 </Collapse>
             </div>
