@@ -37,7 +37,7 @@ const Services = () => {
             description="Developed a strong passion for programming, I am expanding my technical skill-set through time in different directions."
             edescription="Started as self-taught progammer during bachelor years, I broaded my technical skills with programming courses at VSE University and working in the IT environment. My passion for coding involves different fields, and I could apply what I learnt in a moltitude of personal projects (Web, Game, App Development). Check my portfolio for some example."
             />
-        <div className="serv-bottom"><h1></h1></div>
+        <div className="serv-bottom"><h1> </h1></div>
         </div>
         </div>
     )

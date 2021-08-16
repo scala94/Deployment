@@ -52,7 +52,7 @@ const Portfolio = () => {
             edescription="Gained web-scraping experience in working and non-working related projects. You can find Scrapy spiders for H&M and LM in my GitHub, created for data collection and analysist purposes."
             />
             <div>
-                <h1 className="serv-bottom"></h1>
+                <h1 className="serv-bottom"> </h1>
             </div>
         </div>
         </div>
@@ -74,7 +74,7 @@ function Card(props) {
                         <h1 style={{ textAlign: 'justify' }}>{props.edescription}</h1>
                         <img src={props.gif} className="card-gif" alt=""/> 
                         <a href={props.link} className="btn-expand">{props.linkname}</a>
-                        <h1></h1>
+                        <h1> </h1>
                         <a href={props.link2} className="btn-expand">{props.linkname2}</a>
                     </div>
                 </Collapse>
