@@ -193,8 +193,8 @@ nav ul li {
   width: 30%;
   height: 3.5rem;
   z-index: 2;
-  transform: scale(7%);
-  margin-bottom: 5%;
+  transform: scale(0.09);
+  margin-bottom: 2rem;
   width: 17.5%;
   margin-left: 1%;
 }
