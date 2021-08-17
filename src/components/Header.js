@@ -13,7 +13,7 @@ const Header = () => {
                 <h1>Giacomo Scalabrin</h1>
                 <Typed
                     className="typed-text"
-                    strings={[ "Economist", "Data Analysis", "Machine Learning", "IT services", "Relational DBMS ", "Big Data services", "Smart Automation", "Software developement", "Macroeconomic Modelling", "Game Development", "Fast learner", "Creative", "Passioned for programming"]}
+                    strings={[ "Economist", "Data Analysis", "Machine Learning", "IT services", "Relational DBMS ", "Big Data services", "Smart Automation", "Software developement", "Macroeconomic Modelling", "Game Development"]}
                     typeSpeed={50}
                     backSpeed={40}
                     loop
@@ -21,7 +21,7 @@ const Header = () => {
                 <a className="foto-profile" href="/home"><img className="profile" src={profile} alt="logo..." /></a>
                 <div className="main-description">
                     <h2>IT Application Developement Specialist</h2>
-                    <h3>In-between Economist and Data analyst, strongly passionate for programming</h3>
+                    <h3>Economist and Data analyst, strongly passionate for programming</h3>
                 </div>
                 <a href="/contacts" className="btn-main-offer">contact me</a>
             </div>

@@ -20,11 +20,14 @@ const Mailer = () => {
     return (
         <div className="contact-border"
             style={{
-                backgroundImage: 'url("https://th.bing.com/th/id/OIP.qoNsq92OW-JI3C1PnnCc3gHaEo?pid=ImgDet&rs=1")',
+                backgroundImage: 'url("https://th.bing.com/th/id/R.b9eb2099bad0dcf234276daaf6e7a4ce?rik=1DhxMr7BT0SU4Q&pid=ImgRaw&r=0")',
                 backgroundPosition: "center",
                 backgoundSize: "cover",
             }} onSubmit={sendEmail}>
             <h1>Contact Form</h1>
+            <h2>Phone Number: +39 334/2579118</h2>
+            <h2>Email Address: GiacomoScalabrin1994@gmail.com</h2>
+            <h3> c</h3>
             <form className="row" style={{ margin: "0px 5% 0px 5%" }}>
                 <label className="label">Name</label>
                 <input type="text" name="name" className="form-control" ></input>

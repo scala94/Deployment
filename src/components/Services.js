@@ -5,7 +5,7 @@ import {Collapse} from 'react-bootstrap';
 const Services = () => {
     return (
         <div  style={{
-            backgroundImage: 'url("https://wallpaperforu.com/wp-content/uploads/2021/02/Wallpaper-Black-And-White-Laptop-Computer-Keyboards-Tech43.jpg")',
+            backgroundImage: 'url("https://th.bing.com/th/id/R.b9eb2099bad0dcf234276daaf6e7a4ce?rik=1DhxMr7BT0SU4Q&pid=ImgRaw&r=0")',
             backgroundPosition: "center",
             backgoundSize: "cover",
         }}>

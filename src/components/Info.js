@@ -43,7 +43,7 @@ var experiences = [
 var education = [
     {
         title: 'Master Degree: Economics (major “Macroeconomic Policies”)',
-        school: 'niversidade Catolica Portuguesa, Lisbon, Portugal',
+        school: 'Universidade Catolica Portuguesa, Lisbon, Portugal',
         date: 'September 2017 - October 2019',
         description: ['Quantitative program focused on Macroeconomics and Microeconomics modelling, Econometrics, Macro Policies.',
                         'Published thesis: “Flat-tax and minimum income experiment in an OLG model of Italy” which aims to simulate and quantify the impact of a pending fiscal policy in Italy over different cohort ages in an Overlapping Generation Model (with Python).']
@@ -70,7 +70,7 @@ export default class Info extends Component {
             <div>
                 <div className="infoInfo"
                     style={{
-                        backgroundImage: 'url("https://wallpaperforu.com/wp-content/uploads/2021/02/Wallpaper-Black-And-White-Laptop-Computer-Keyboards-Tech43.jpg")',
+                        backgroundImage: 'url("https://th.bing.com/th/id/R.b9eb2099bad0dcf234276daaf6e7a4ce?rik=1DhxMr7BT0SU4Q&pid=ImgRaw&r=0")',
                         backgroundPosition: "center",
                         backgoundSize: "cover",
                     }}>
