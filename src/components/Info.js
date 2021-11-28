@@ -11,17 +11,31 @@ import Pdf from "../CV_GiacomoScalabrin.pdf";
 var experiences = [
     {
         title: 'European Central Bank, Frankfurt am Main, Germany',
+        role: 'Research Analyst – Dir. General Statistics',
+        date: 'October 2021 - Present',
+        description: ["Responsible for Crypto Asset data distribution within ECB and maintaining internal webapp applications.",
+                        "Supporting and improving Credit Risk data production and dissemination pipelines."]
+    },
+    {
+        title: 'European Central Bank, Frankfurt am Main, Germany',
+        role: 'Supervision Analyst – Dir. Horizontal Line Supervision',
+        date: 'August 2021 - October 2021',
+        description: ["Supported the Supervisory Methodology division working on data processes tuning and optimisation.",
+                        "Actively proposed optimised solutions for improving the current technological infrastructure."]
+    },    
+    {
+        title: 'European Central Bank, Frankfurt am Main, Germany',
         role: 'IT Application Development Specialist – DGIS/DAS',
         date: 'March 2021 - Present',
-        description: ["Worked for Tableau Smart Automation processes with Python on an Administrative level (through Tableau Rest API).",
-                        "Involved with data centralization (ECB Big Data support), responsible for the redesign the Survey of Professional Forecasters process and data migration from Oracle to Hive/Impala based system (DISC/SPACE)."]
+        description: ["Worked for Tableau Admin processes; automation with Python (through Tableau Rest API and postgre server).",
+                        "Part of the data centralization team (ECB Big Data support), supported with databases redesign and migration processes (mainly worked with Oracle, Cloudera Hive and Impala servies)."]
     },
     {
         title: 'European Central Bank, Frankfurt am Main, Germany',
         role: "Trainee Analyst in DG Economics – Prices and Costs (DGE-PAC)",
         date: 'February 2020 - February 2021',
         description: ["Supported the Forecast Team producing statistical analysis, visualisation solutions and preparing presentation of results for the ECB (Broad) Macroeconomic Projection Exercises.", 
-                        "Worked on different Smart Automation processes in R (databases update, ECB official chartpack library).", 
+                        "Worked on Smart Automation processes in R (databases update, ECB official chartpack library).", 
                         "Provided web scraping support with Python (through Scrapy)."]
     },
     {
@@ -75,7 +89,7 @@ export default class Info extends Component {
                         backgoundSize: "cover",
                     }}>
                     <h1>About me</h1>
-                    <h2 style={{ textAlign: 'justify' }}> Hello visitor, my name is Giacomo Scalabrin and I am an IT Application Development Specialist at the European Central Bank. With a background in Economics, a good predisposition toward data analysis and a strong passion for programming, I built up through time an interesting and diversified set of skills.</h2>
+                    <h2 style={{ textAlign: 'justify' }}> Hello visitor, few information on my background.</h2>
                     <div className="info-grid">
                         <Grid Item xs={12}>
                             <Grid container className='resume_timeline'>
