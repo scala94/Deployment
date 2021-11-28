@@ -25,14 +25,14 @@ var experiences = [
     },    
     {
         title: 'European Central Bank, Frankfurt am Main, Germany',
-        role: 'IT Application Development Specialist – DGIS/DAS',
+        role: 'IT Application Development Specialist – Dir. Information Systems',
         date: 'March 2021 - Present',
         description: ["Worked for Tableau Admin processes; automation with Python (through Tableau Rest API and postgre server).",
                         "Part of the data centralization team (ECB Big Data support), supported with databases redesign and migration processes (mainly worked with Oracle, Cloudera Hive and Impala servies)."]
     },
     {
         title: 'European Central Bank, Frankfurt am Main, Germany',
-        role: "Trainee Analyst in DG Economics – Prices and Costs (DGE-PAC)",
+        role: "Trainee Analyst - Dir. General Economics (Prices and Costs)",
         date: 'February 2020 - February 2021',
         description: ["Supported the Forecast Team producing statistical analysis, visualisation solutions and preparing presentation of results for the ECB (Broad) Macroeconomic Projection Exercises.", 
                         "Worked on Smart Automation processes in R (databases update, ECB official chartpack library).", 
